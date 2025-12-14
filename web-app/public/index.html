@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Air Quality</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-light">
+    <div class="container mt-4">
+
+        <h3 class="text-center">🌫 ESP32 Air Quality</h3>
+
+        <div class="row mt-3">
+            <div class="col">
+                <div class="card p-3 text-center">🌡 <span id="temp">--</span> °C</div>
+            </div>
+            <div class="col">
+                <div class="card p-3 text-center">💧 <span id="hum">--</span> %</div>
+            </div>
+            <div class="col">
+                <div class="card p-3 text-center">🫁 <span id="co2">--</span> ppm</div>
+            </div>
+        </div>
+
+        <canvas id="co2Chart" class="mt-4"></canvas>
+
+        <div class="mt-4 text-center">
+            <button class="btn btn-danger" onclick="control(true)">🚨 Buzzer</button>
+            <button class="btn btn-warning" onclick="control(false)">🔕 Tắt</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
