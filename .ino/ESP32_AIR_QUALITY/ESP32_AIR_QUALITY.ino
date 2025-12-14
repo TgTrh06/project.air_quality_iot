@@ -17,7 +17,7 @@ const char* ssid = "67dtp302";
 const char* password = "lusaco123";
 
 /* ================= MQTT ========================= */
-const char* mqtt_server   = "56ccb23b917d48aa837086e35825e960.s1.eu.hivemq.cloud";
+const char* mqtt_server   = "2984d72cfc7a4036be874332eae56b97.s1.eu.hivemq.cloud";
 const int   mqtt_port     = 8883;
 const char* mqtt_username = "air-quality";
 const char* mqtt_password = "AirQuality123";
