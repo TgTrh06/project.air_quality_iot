@@ -4,8 +4,6 @@ A comprehensive IoT solution for real-time indoor air quality monitoring. This p
 
 **[🌐 Live Demo](https://project-air-quality-iot.onrender.com/)**
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Preview+Coming+Soon)
-
 ---
 
 ## 🚀 Features
