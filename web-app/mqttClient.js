@@ -1,7 +1,7 @@
 import mqtt from "mqtt";
 
 const options = {
-    host: "56ccb23b917d48aa837086e35825e960.s1.eu.hivemq.cloud",
+    host: "2984d72cfc7a4036be874332eae56b97.s1.eu.hivemq.cloud",
     port: 8883,
     protocol: "mqtts",
     username: "air-quality",
